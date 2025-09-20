@@ -1,0 +1,31 @@
+{
+    "receitas": [
+        {
+            "id": 1,
+            "nome": "Panqueca de Banana",
+            "categoria": "Café da Manhã",
+            "descricao": "Receita bacana pra comer com os amigos de manhã.",
+            "ingredientes": [
+                "1 banana madura",
+                "1 ovo",
+                "2 colheres de sopa de aveia",
+                "1 pitada de canela"
+            ],
+            "modoPreparo": [
+                "Amasse a banana em uma tigela.",
+                "Adicione o ovo, a aveia e a canela, misturando bem.",
+                "Aqueça uma frigideira antiaderente e despeje a massa.",
+                "Cozinhe por 2-3 minutos de cada lado até dourar."
+            ],
+            "tempoPreparo": "10 minutos",
+            "rendimento": "2 porções",
+            "nivelDificuldade": "Fácil",
+            "imagem": "https://canaldareceita.com.br/wp-content/uploads/2025/01/PANQUECA-DE-BANANA-1200x720.jpg",
+            "tags": [
+                "rápida",
+                "doce",
+                "fitness"
+            ]
+        }
+    ]
+}
