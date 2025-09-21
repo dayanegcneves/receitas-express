@@ -1,0 +1,10 @@
+.item {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.item-ativo {
+    border-bottom: 1px solid #FFFFFF;
+}

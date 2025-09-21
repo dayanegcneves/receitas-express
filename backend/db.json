@@ -26,6 +26,69 @@
                 "doce",
                 "fitness"
             ]
+        },
+        {
+            "id": 2,
+            "nome": "Salada de Quinoa com Legumes",
+            "categoria": "Almoço",
+            "descricao": "Salada nutritiva e colorida, perfeita para o verão.",
+            "ingredientes": [
+                "1 xícara de quinoa",
+                "1 cenoura ralada",
+                "1/2 pimentão vermelho picado",
+                "1/2 pepino picado",
+                "2 colheres de sopa de azeite",
+                "Suco de 1 limão",
+                "Sal e pimenta a gosto"
+            ],
+            "modoPreparo": [
+                "Cozinhe a quinoa conforme as instruções da embalagem e deixe esfriar.",
+                "Misture todos os legumes picados em uma tigela.",
+                "Adicione a quinoa cozida aos legumes.",
+                "Tempere com azeite, suco de limão, sal e pimenta.",
+                "Misture bem e sirva."
+            ],
+            "tempoPreparo": "20 minutos",
+            "rendimento": "3 porções",
+            "nivelDificuldade": "Fácil",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-wpRYsAKe_bdD3935J1ViFw6CWGVkHe3yyQ&s",
+            "tags": [
+                "vegetariana",
+                "leve",
+                "rápida"
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Macarrão ao Molho de Tomate e Manjericão",
+            "categoria": "Jantar",
+            "descricao": "Clássico italiano, rápido e delicioso para qualquer noite.",
+            "ingredientes": [
+                "200g de macarrão de sua preferência",
+                "2 tomates maduros picados",
+                "1 dente de alho picado",
+                "1 colher de sopa de azeite",
+                "Folhas de manjericão fresco",
+                "Sal e pimenta a gosto",
+                "Queijo parmesão ralado (opcional)"
+            ],
+            "modoPreparo": [
+                "Cozinhe o macarrão conforme as instruções da embalagem.",
+                "Enquanto isso, aqueça o azeite em uma panela e refogue o alho.",
+                "Adicione os tomates picados e cozinhe até formar um molho.",
+                "Tempere com sal, pimenta e misture algumas folhas de manjericão.",
+                "Escorra o macarrão e misture ao molho.",
+                "Finalize com mais folhas de manjericão e queijo parmesão, se desejar."
+            ],
+            "tempoPreparo": "25 minutos",
+            "rendimento": "2 porções",
+            "nivelDificuldade": "Fácil",
+            "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/35c4e4f131833f8a69fcbd600e39ddf9.jpg",
+            "tags": [
+                "rápida",
+                "italiana",
+                "vegetariana"
+            ]
         }
     ]
 }

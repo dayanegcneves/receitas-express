@@ -1,0 +1,15 @@
+.banner {
+    background-image: url('/public/capa.png');
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-titulo {
+    color: #FFFFFF;
+    width: 600px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+}

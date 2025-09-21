@@ -1,0 +1,25 @@
+.barra-pesquisa {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 10px;
+  background: rgba(245, 242, 242, 0.500);
+}
+
+.barra-pesquisa img.icone-lupa {
+  margin: 0 8px;
+}
+
+.barra-pesquisa input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.barra-pesquisa input::placeholder {
+    color: #FBFBFB;
+}
