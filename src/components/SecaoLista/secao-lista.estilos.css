@@ -1,0 +1,14 @@
+.secao-lista {
+    padding: 40px 0;
+}
+
+.titulo-secao {
+    color: #A02D2D;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+ul {
+  list-style-position: inside;
+}
