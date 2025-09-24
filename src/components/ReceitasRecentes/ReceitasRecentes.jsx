@@ -19,15 +19,18 @@ export function ReceitasRecentes() {
         fetchReceitas()
     }, [])
 
-    return(
+    return (
         <section className="receitas-recentes">
             <h2 className='receitas-titulo'>Receitas recentes</h2>
             <div className='cards'>
-                {receitas.map((receita) => {
-                    return(
-                        <CardReceita key={receita.id} {...receita}></CardReceita>
-                    )
-                })}
+                {receitas.slice()
+                    .reverse()
+                    .slice(0, 3)
+                    .map((receita) => {
+                        return (
+                            <CardReceita key={receita.id} {...receita}></CardReceita>
+                        )
+                    })}
             </div>
         </section>
     )
