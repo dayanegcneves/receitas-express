@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './input-dinamico.estilos.css'
+import { Label } from '../Label/Label';
 
 export function InputDinamico({ label, onChange }) {
     const [valores, setValores] = useState([""]);
@@ -10,7 +11,7 @@ export function InputDinamico({ label, onChange }) {
         setValores(novosValores);
 
         if (onChange) {
-            onChange(novosValores); // informa ao pai
+            onChange(novosValores);
         }
     };
 
@@ -24,10 +25,11 @@ export function InputDinamico({ label, onChange }) {
 
     return (
         <div>
-            <h3>{label}</h3>
+            <Label nome={label} label={label}></Label>
             {valores.map((valor, index) => (
-                <div key={index} style={{ marginBottom: "8px" }}>
+                <div key={index}>
                     <input
+                        className='input-dinamico'
                         type="text"
                         value={valor}
                         onChange={(e) => handleChange(index, e.target.value)}
@@ -35,7 +37,7 @@ export function InputDinamico({ label, onChange }) {
                     />
                 </div>
             ))}
-            <button type="button" onClick={adicionarInput}>
+            <button className='botao-adicionar' type="button" onClick={adicionarInput}>
                 Adicionar {label.toLowerCase()}
             </button>
         </div>

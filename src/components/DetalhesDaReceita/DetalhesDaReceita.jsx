@@ -1,6 +1,7 @@
 import './detalhes-da-receita.estilos.css'
 import { InputDinamico } from '../InputDinamico/InputDinamico'
 import { useState } from 'react';
+import { Titulo } from '../Titulo/Titulo';
 
 export function DetalhesDaReceita({ onFormChange }) {
     const [ingredientes, setIngredientes] = useState([]);
@@ -22,15 +23,18 @@ export function DetalhesDaReceita({ onFormChange }) {
 
     return (
         <div>
-            <InputDinamico
-                label="Ingrediente"
-                onChange={(valores) => atualizarForm("ingredientes", valores)}
-            />
+            <Titulo>Detalhes da receita</Titulo>
+            <div className='card-detalhes-receita-cadastro'>
+                <InputDinamico
+                    label="Ingrediente"
+                    onChange={(valores) => atualizarForm("ingredientes", valores)}
+                />
 
-            <InputDinamico
-                label="Modo de Preparo"
-                onChange={(valores) => atualizarForm("modoPreparo", valores)}
-            />
+                <InputDinamico
+                    label="Modo de Preparo"
+                    onChange={(valores) => atualizarForm("modoPreparo", valores)}
+                />
+            </div>
         </div>
     );
 }

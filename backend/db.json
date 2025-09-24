@@ -110,6 +110,32 @@
         "Despeje os ovos e mexa até cozinhar, mas ainda cremoso.",
         "Sirva quente."
       ]
+    },
+    {
+      "id": "b9e2",
+      "nome": "Bolinho de Banana de Caneca",
+      "imagem": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-caneca-de-banana-fit-capa.png",
+      "descricao": "Lanche para dar saciedade no intervalo das refeições.",
+      "tempoPreparo": "5 minutos",
+      "rendimento": "1 porção",
+      "nivelDificuldade": "Fácil",
+      "categoria": "Lanche",
+      "ingredientes": [
+        "1 banana madura amassada",
+        "1 ovo",
+        "2 colheres de sopa de aveia em flocos (ou farinha de trigo)",
+        "1 colher de chá de fermento em pó",
+        "1 colher de chá de mel ou açúcar (opcional)",
+        "Canela a gosto"
+      ],
+      "modoPreparo": [
+        "Em uma caneca grande, amasse a banana.",
+        "Acrescente o ovo e misture bem.",
+        "Adicione a aveia, o mel/açúcar, a canela e, por último, o fermento.",
+        "Misture até ficar homogêneo.",
+        "Leve ao micro-ondas por 2 a 3 minutos (dependendo da potência).",
+        "Espere esfriar um pouquinho, desenforme se quiser e aproveite."
+      ]
     }
   ]
 }

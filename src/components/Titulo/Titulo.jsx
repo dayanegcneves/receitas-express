@@ -2,6 +2,6 @@ import './titulo.estilos.css'
 
 export function Titulo({ children }) {
     return (
-        <h3>{children}</h3>
+        <h3 className='titulo-secao-cadastro'>{children}</h3>
     )
 }

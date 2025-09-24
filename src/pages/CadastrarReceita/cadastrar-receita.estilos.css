@@ -1,0 +1,28 @@
+.form-cadastro {
+    padding: 50px 100px;
+}
+
+.secoes-cadastro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rodape-botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao-salvar {
+    background-color: #A02D2D;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.botao-salvar:hover {
+    background-color: #830e0e;
+    cursor: pointer;
+}

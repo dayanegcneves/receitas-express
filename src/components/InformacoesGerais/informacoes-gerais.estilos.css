@@ -1,0 +1,20 @@
+.card-informacoes-gerais {
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 700px;
+}
+
+.card-informacoes-gerais img {
+    width: 450px;
+}
+
+.selects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

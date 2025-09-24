@@ -20,10 +20,32 @@ const api = {
                 },
                 body: JSON.stringify(receita)
             })
-            return response.json()
+
+            if (response.ok) {
+                return await response.json();
+            } else {
+                alert("Erro ao cadastrar receita");
+                throw new Error("Erro na requisição: " + response.status);
+            }
+
         } catch (error) {
             alert('Erro ao cadastrar receita')
             throw error
+        }
+    },
+
+    async filtrarReceitas(palavra) {
+        const palavraEmMinusculo = palavra.toLowerCase()
+        try {
+            const receitas = await this.buscarReceitas()
+            const receitasEncontradas = receitas.filter((receita) => {
+                return receita.nome.toLowerCase().includes(palavraEmMinusculo)
+            })
+            return receitasEncontradas
+        } catch (error) {
+            alert('Erro ao buscar receita')
+            throw error;
+            
         }
     }
 }

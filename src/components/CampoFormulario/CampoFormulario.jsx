@@ -4,7 +4,7 @@ import { Input } from '../Input/Input'
 
 export function CampoFormulario({nome, label, placeholder}) {
     return (
-        <div>
+        <div className='campo-formulario'>
             <Label nome={nome} label={label}></Label>
             <Input nome={nome} placeholder={placeholder}></Input>
         </div>

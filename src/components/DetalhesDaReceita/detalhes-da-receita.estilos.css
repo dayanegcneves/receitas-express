@@ -1,0 +1,11 @@
+.card-detalhes-receita-cadastro {
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    height: 700px;
+}

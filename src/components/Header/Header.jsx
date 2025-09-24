@@ -1,4 +1,3 @@
-import { BarraDePesquisa } from '../BarraDePesquisa/BarraDePesquisa'
 import { ItemDaLista } from '../ItemDaLista/ItemDaLista'
 import './header.estilos.css'
 
@@ -11,7 +10,6 @@ export function Header() {
                 <ItemDaLista className='item' label='Receitas' pagina='/receitas'></ItemDaLista>
                 <ItemDaLista className='item' label='Cadastro' pagina='/cadastrar-receita'></ItemDaLista>
             </nav>
-            <BarraDePesquisa></BarraDePesquisa>
         </header>
     )
 }
