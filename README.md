@@ -1,9 +1,9 @@
-# Nome do Projeto
+# Receita Express
 
 > Um website para cadastrar, organizar e consultar suas receitas de forma rápida e prática.
 
 ## 🔖 Sumário
-- [Nome do Projeto](#nome-do-projeto)
+- [Receita Express](#nome-do-projeto)
   - [🔖 Sumário](#-sumário)
   - [📝 Sobre](#-sobre)
   - [⚡ Funcionalidades](#-funcionalidades)
